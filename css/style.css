@@ -251,9 +251,9 @@ a.trend-title-link {
 }
 
 .new-post-description {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .new-post-data {
@@ -324,7 +324,7 @@ a.trend-title-link {
 }
 
 .search-btn:hover {
-background-color: black;
+  background-color: black;
 }
 
 
