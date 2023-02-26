@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>mq-diplom</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style1.css">
 </head>
 <body>
   
@@ -16,6 +16,9 @@
           <img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" alt="" class="logo">
         </a>
         <nav class="menu">
+          <button class="menu-button">
+            <span class="menu-button-label">открыть меню</span>
+          </button>
           <ul class="menu-list">
             <li class="menu-list-item">
               <a href="#0" class="menu-link">Главная</a>
@@ -42,6 +45,7 @@
     </div>
   </header>
 
+
   <div class="trends">
     <h2 class="new-title trends-title">Сейчас в тренде</h2>
     <div class="new-trends">
@@ -49,10 +53,10 @@
         <div class="trend-description">
           <ul class="card-list">
             <li class="card-list-item">
-              <a href="" class="card-list-link">Lifestyle</a>
+              <a href="" class="card-list-link trend-list-link">Lifestyle</a>
             </li>
             <li class="card-list-item">
-              <a href="" class="card-list-link">Interior</a>
+              <a href="" class="card-list-link trend-list-link">Interior</a>
             </li>
           </ul>
           <h2 class="card-title">
@@ -64,7 +68,7 @@
         <div class="trend-description">
           <ul class="card-list">
             <li class="card-list-item">
-              <a href="" class="card-list-link">Food</a>
+              <a href="" class="card-list-link trend-list-link">Food</a>
             </li>
           </ul>
           <h2 class="card-title">
@@ -76,10 +80,10 @@
         <div class="trend-description">
           <ul class="card-list">
             <li class="card-list-item">
-              <a href="" class="card-list-link">Lifestyle</a>
+              <a href="" class="card-list-link trend-list-link">Lifestyle</a>
             </li>
             <li class="card-list-item">
-              <a href="" class="card-list-link">Travel</a>
+              <a href="" class="card-list-link trend-list-link">Travel</a>
             </li>
           </ul>
           <h2 class="card-title">
@@ -91,10 +95,10 @@
         <div class="trend-description">
           <ul class="card-list">
             <li class="card-list-item">
-              <a href="" class="card-list-link">Food</a>
+              <a href="" class="card-list-link trend-list-link">Food</a>
             </li>
             <li class="card-list-item">
-              <a href="" class="card-list-link">Health</a>
+              <a href="" class="card-list-link trend-list-link">Health</a>
             </li>
           </ul>
           <h2 class="card-title">
@@ -104,7 +108,7 @@
       </div>
     </div>
   </div>
-  
+ 
   <div class="content">
     <div class="basic-content">
       <main class="main-content">
@@ -276,7 +280,7 @@
       <aside class="sidebar">
         <section class="wrap">
           <h3 class="new-title">Новые посты</h3>
-          <div>
+          <div class="posts">
             <article class="post">
               <img src="https://netology-code.github.io/html-2-diploma/sources/images/2.jpg" alt="" class="new-post-img">
               <div class="new-post-description">
@@ -314,7 +318,7 @@
             </article>
           </div>
           <form action="" class="new-posts-search">
-            <label for="qwe">
+            <label for="qwe" style="width: 100%">
               <span class="visually-hidden">Поле поиска</span>
               <input type="search" name="qwe" id="qwe" class="search" placeholder="Найти...">
             </label>
