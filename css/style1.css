@@ -29,7 +29,7 @@
 
   .banner {
     background-color: black;
-    background: url(/image/banner-mobile.jpg);
+    background: url(../image/banner-mobile.jpg);
     color: white;
     padding-top: 30px;
     padding-bottom: 220px;
@@ -179,28 +179,28 @@
   }
 
   .trend-first {
-    background: url("/image/trend1.jpg");
+    background: url("../image/trend1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
   
   .trend-second {
-    background: url("/image/trend2.jpg");
+    background: url("../image/trend2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
   
   .trend-third {
-    background: url("/image/trend3.jpg");
+    background: url("../image/trend3.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
   
   .trend-fourth {
-    background: url("/image/trend4.jpg");
+    background: url("../image/trend4.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -388,7 +388,7 @@
   .search-btn {
     width: 47px;
     background-color: #b59f5b;
-    background-image: url("/svg/search.svg");
+    background-image: url("../svg/search.svg");
     background-size: 18px 18px;
     background-repeat: no-repeat;
     background-position: center;
@@ -595,19 +595,19 @@
   .dribbble {
     width: 20px;
     height: 20px;
-    background-image: url("/svg/001-dribbble.svg");
+    background-image: url("../svg/001-dribbble.svg");
   }
 
   .pinterest {
     width: 16px;
     height: 20px;
-    background-image: url("/svg/001-pinterest.svg");
+    background-image: url("../svg/001-pinterest.svg");
   }   
 
   .tumbler {
     width: 13px;
     height: 20px;
-    background-image: url("/svg/003-tumblr.svg");
+    background-image: url("../svg/003-tumblr.svg");
   }
 
   .copy {
@@ -629,7 +629,7 @@
   @media (min-width: 641px) {
 
     .banner {
-        background: url(/image/banner-bg-tablet.jpg);
+        background: url(../image/banner-bg-tablet.jpg);
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
