@@ -59,7 +59,7 @@
               <a href="" class="card-list-link trend-list-link">Interior</a>
             </li>
           </ul>
-          <h2 class="card-title">
+          <h2 class="card-title trend-card-title">
             <a href="" class="card-title-link trend-title-link">Сейчас в тренде: сад на подоконнике</a>
           </h2>
         </div>
@@ -71,7 +71,7 @@
               <a href="" class="card-list-link trend-list-link">Food</a>
             </li>
           </ul>
-          <h2 class="card-title">
+          <h2 class="card-title trend-card-title">
             <a href="" class="card-title-link trend-title-link">Сыры на красивых картинках из интернета: какие они на вкус?</a>
           </h2>
         </div>
@@ -86,7 +86,7 @@
               <a href="" class="card-list-link trend-list-link">Travel</a>
             </li>
           </ul>
-          <h2 class="card-title">
+          <h2 class="card-title trend-card-title">
             <a href="" class="card-title-link trend-title-link">Собираемся в первый поход в горы</a>
           </h2>
         </div>
@@ -101,8 +101,8 @@
               <a href="" class="card-list-link trend-list-link">Health</a>
             </li>
           </ul>
-          <h2 class="card-title">
-            <a href="" class="card-title-link trend-title-link">Сейчас в тренде: сколько витамина в лимоне?</a>
+          <h2 class="card-title trend-card-title">
+            <a href="" class="card-title-link trend-title-link">Сейчас в тренде: сколько витамина c в лимоне?</a>
           </h2>
         </div>
       </div>
@@ -176,8 +176,8 @@
               <cite class="card-author">Неизвестный автор</cite>
             </div>
             <p class="card-text">Лето на носу, а сним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?</p>
-            <br>
-            <p class="card-text">Мы составили список лучших летних фестивалей по всему миру.
+            
+            <p class="card-textt">Мы составили список лучших летних фестивалей по всему миру.
             </p>
           </div>
         </article>
@@ -233,7 +233,7 @@
       </main>
       <aside class="sidebar">
         <section class="wrap">
-          <h3 class="new-title">Новые посты</h3>
+          <h3 class="new-title new-title-posts">Новые посты</h3>
           <div class="posts">
             <article class="post">
               <img src="image/2.jpg" alt="" class="new-post-img">
@@ -417,5 +417,49 @@
     </footer>
   </div>
   
+  <div class="popup">
+    <div class="popup-container">
+      <div class="your-feedback">
+        <header class="your-feedback-header">
+          <h2 class="new-title">Ваш фидбек</h2>
+        </header>
+        <div class="your-feedback-content">
+          <form action="" class="your-feedback-form">
+            <div class="vizit">
+              <label for="your-vizit" class="your-feedback-label">Как часто вы заходите на сайт?</label>
+              <select name="" id="your-vizit" class="your-vizit">
+                <option value="Почти каждый день">Почти каждый день</option>
+                <option value="Раз в несколько дней">Раз в несколько дней</option>
+                <option value="Раз в несколько недель">Раз в несколько недель</option>
+                <option value="Несколько раз в год">Несколько раз в год</option>
+              </select>
+            </div>
+            <div class="subscription">
+              <label for="mail-subscription" class="your-feedback-label">Вы подписаны на e-mail рассылку?</label>
+              <div class="radio">
+                <div class="radio-yes">
+                  <input type="radio" value="Да" id="radio-yes" class="" checked>
+                  <label for="radio-yes">Да</label>
+                </div>
+                <div class="radio-no">
+                  <input type="radio" value="Нет" id="radio-no" class="">
+                  <label for="radio-no">Нет</label>
+                </div>
+              </div>
+            </div>
+            <div class="your-content">
+              <label for="textarea" class="your-feedback-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+              <textarea name="" class="your-content-text" id="textarea" cols="30" rows="10" placeholder="Может, больше рецептов?"></textarea>
+            </div>
+            <div class="your-feedback-btn">
+              <button class="email-btn">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <button class="popup-close" type="button">Закрыть окно</button>
+    </div>
+  </div>
+
 </body>
 </html>
