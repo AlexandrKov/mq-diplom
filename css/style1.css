@@ -845,6 +845,7 @@
       max-width: 1200px;
       margin: 0 auto;
       padding: 0 35px;
+      box-sizing: border-box;
     }
 
     .trends {
@@ -891,16 +892,16 @@
 
     .basic-content {
         display: flex;
-        justify-content: center;
+        justify-content: end;
     }
 
     .main-content {
-        width: 392px;
+        width: 51.1%;
         margin-right: 35px;
     }
 
     .card-img {
-        width: 392px;
+        width: 100%;
         margin-top: 5px;
         margin-bottom: 5px;
     }
@@ -971,6 +972,12 @@
       margin-bottom: 30px;
     }
 
+    .product-border {
+      max-width: 357px;
+      margin-right: -1.9em;
+      margin-left: -1.9em;
+    }
+
     .new-products {
         justify-content: space-between;
         margin-top: 28px;
@@ -978,6 +985,12 @@
 
     .product {
         width: calc(50% - 33px);
+        align-items: center;
+    }
+
+    .product-img {
+      margin: 0;
+      margin-bottom: 20px;
     }
 
     .popup-container {
