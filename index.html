@@ -438,18 +438,22 @@
               <label for="mail-subscription" class="your-feedback-label">Вы подписаны на e-mail рассылку?</label>
               <div class="radio">
                 <div class="radio-yes">
-                  <input type="radio" value="Да" id="radio-yes" class="" checked>
-                  <label for="radio-yes">Да</label>
+                  <label class="radio-group">
+                    <input type="radio" value="Да" id="gender" class="radio-group-control" name="radio-group" checked>
+                    <span class="input-group-text">Да</span>
+                  </label>
                 </div>
                 <div class="radio-no">
-                  <input type="radio" value="Нет" id="radio-no" class="">
-                  <label for="radio-no">Нет</label>
+                  <label class="radio-group">
+                    <input type="radio" value="Да" id="gender" class="radio-group-control" name="radio-group">
+                    <span class="input-group-text">Нет</span>
+                  </label>
                 </div>
               </div>
             </div>
             <div class="your-content">
               <label for="textarea" class="your-feedback-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
-              <textarea name="" class="your-content-text" id="textarea" cols="30" rows="10" placeholder="Может, больше рецептов?"></textarea>
+              <textarea name="" class="your-content-text" id="textarea" cols="30" rows="7" placeholder="Может, больше рецептов?"></textarea>
             </div>
             <div class="your-feedback-btn">
               <button class="email-btn">Отправить</button>
